@@ -216,14 +216,22 @@
 
 /* flower Lover section */
 
-
 .flower-lover-container {
-    margin-left: 2rem;
+    margin-left: 3rem;
 }
 
 .flower-lover-li {
-    padding: 1.25rem;
+    padding: 0.76rem;
 }
+
+
+.trusted-badge {
+    position: relative;
+    left: 25rem;
+    width: 25%;
+    margin-bottom: -10rem;
+}
+
 
 /* Mobile responsive */
 
@@ -320,6 +328,10 @@
     .flower-img {
         width: 100%;
     }
+
+    .trusted-badge {
+        display: none;
+    }
 }
 
 
@@ -384,7 +396,6 @@
     }
 
 
-
     .plant-section-img {
         width: 100%;
     }
@@ -409,10 +420,10 @@
     .flower-img {
         width: 100%;
     }
-}
 
-@media screen and (min-width:576.1px) {
-    .flower-lover {
-        margin-top: 12rem;
+    .trusted-badge {
+        display: none;
     }
 }
+
+@media screen and (min-width:576.1px) {}
