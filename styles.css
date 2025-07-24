@@ -196,6 +196,13 @@
         margin-left: 1rem;
         margin-right: 1rem;
     }
+
+    .plant-section {
+        margin-top: 4rem;
+        margin-left: 1.75rem;
+        margin-right: 1.75rem;
+    }
+
 }
 
 @media screen and (min-width:400px) and (max-width:576px) {
@@ -222,5 +229,11 @@
         margin-left: 1rem;
         margin-right: 1rem;
         margin-top: 2rem;
+    }
+
+    .plant-section {
+        margin-top: 4rem;
+        margin-left: 1.75rem;
+        margin-right: 1.75rem;
     }
 }
