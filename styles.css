@@ -135,6 +135,11 @@
     text-align: center;
 }
 
+
+.align-item {
+    align-items: flex-start;
+}
+
 .display-grid {
     display: grid;
 }
@@ -198,6 +203,7 @@
     grid-template-columns: repeat(4, 1fr);
     gap: 1rem;
     margin-top: 3rem;
+    row-gap: 2rem;
 }
 
 .plant-price-gap {
@@ -208,6 +214,16 @@
     width: 100%;
 }
 
+/* flower Lover section */
+
+
+.flower-lover-container {
+    margin-left: 2rem;
+}
+
+.flower-lover-li {
+    padding: 1.25rem;
+}
 
 /* Mobile responsive */
 
@@ -250,6 +266,7 @@
 
     .plant-price-sec {
         grid-template-columns: repeat(2, 1fr);
+        row-gap: 1rem;
         margin-left: 1rem;
         margin-right: 1rem;
     }
@@ -295,7 +312,17 @@
         margin-top: 2rem;
     }
 
+    .flower-lover {
+        flex-direction: column;
+        margin-top: 3rem;
+    }
+
+    .flower-img {
+        width: 100%;
+    }
 }
+
+
 
 @media screen and (min-width:400px) and (max-width:576px) {
 
@@ -351,6 +378,13 @@
         font-weight: normal;
     }
 
+    .font-22-bold-c {
+        font-size: 2rem;
+        font-weight: 700;
+    }
+
+
+
     .plant-section-img {
         width: 100%;
     }
@@ -365,5 +399,20 @@
 
     .plant-price-div {
         margin-top: 2rem;
+    }
+
+    .flower-lover {
+        flex-direction: column;
+        margin-top: 3rem;
+    }
+
+    .flower-img {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:576.1px) {
+    .flower-lover {
+        margin-top: 12rem;
     }
 }
