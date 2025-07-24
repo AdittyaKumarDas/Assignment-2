@@ -109,6 +109,10 @@
     display: flex;
 }
 
+.text-align {
+    text-align: center;
+}
+
 /* Max-width */
 
 .max-width {
@@ -128,6 +132,12 @@
     align-items: center;
 }
 
+.header-cart {
+    padding: 0;
+    gap: 3rem;
+    align-items: center;
+}
+
 .header-ul li {
     list-style: none;
 }
@@ -136,5 +146,81 @@
     text-decoration: none;
 }
 
+.header-section a {
+    text-decoration: none;
+}
+
+
 /* For Banner Section */
 
+.hero-section {
+    margin-top: 7.5rem;
+    align-items: flex-end;
+}
+
+.hero-section-img {
+    width: 100%;
+}
+
+/* Our plant Section */
+.plant-section {
+    margin-top: 7.5rem;
+}
+
+
+
+
+/* Mobile responsive */
+
+@media screen and (max-width:400px) {
+
+    .header-section {
+        margin-right: 1rem;
+        margin-left: 1rem;
+    }
+
+    .header-ul {
+        display: none;
+    }
+
+    .hero-section {
+        flex-direction: column-reverse;
+    }
+
+    .hero-section-img {
+        width: 100%;
+        margin: 0px;
+    }
+
+    .hero-section-div {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+}
+
+@media screen and (min-width:400px) and (max-width:576px) {
+
+    .header-section {
+        margin-right: 1rem;
+        margin-left: 1rem;
+    }
+
+    .header-ul {
+        display: none;
+    }
+
+    .hero-section {
+        flex-direction: column-reverse;
+    }
+
+    .hero-section-img {
+        width: 100%;
+    }
+
+    .hero-section-div {
+        max-width: 95%;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        margin-top: 2rem;
+    }
+}
