@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+.inter-fonts {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.noto-serif-fonts {
+    font-family: "Noto Serif", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+/* Common Classes for font */
+
+.font-16-bold {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.font-16-regular {
+    font-size: 1rem;
+    font-weight: normal;
+}
+
+.font-20-bold {
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+.font-22-regular {
+    font-size: 1.375rem;
+    font-weight: normal;
+}
+
+.font-22-bold {
+    font-size: 1.375rem;
+    font-weight: 700;
+}
+
+.font-28-semibold {
+    font-size: 1.75rem;
+    font-weight: 600;
+}
+
+.font-40-bold {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.font-50-bold {
+    font-size: 3.125rem;
+    font-weight: 700;
+}
+
+.font-65-bold {
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.cart {
+    font-size: 1.5rem;
+}
+
+/* common Classes For Color */
+
+.dark-1 {
+    color: rgba(0, 0, 0, 1);
+}
+
+.dark-2 {
+    color: rgba(17, 17, 17, 1);
+}
+
+.dark-3 {
+    color: rgba(37, 36, 50, 1);
+}
+
+.dark-5 {
+    color: rgba(137, 135, 161, 1);
+}
+
+.dark-ash {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.gray-color {
+    color: rgb(251, 252, 255);
+}
+
+.orange-color {
+    color: rgba(233, 90, 8, 1);
+}
+
+.white-color {
+    color: rgba(255, 255, 255, 1);
+}
+
+.background-color {
+    background-color: rgb(245, 248, 255);
+}
+
+/* Flex */
+
+.display-flex {
+    display: flex;
+}
+
+/* Max-width */
+
+.max-width {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* For Header Class */
+.header-section {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-ul {
+    padding: 0;
+    gap: 3rem;
+    align-items: center;
+}
+
+.header-ul li {
+    list-style: none;
+}
+
+.header-ul a {
+    text-decoration: none;
+}
+
+/* For Banner Section */
+
