@@ -294,7 +294,7 @@
     }
 
     .font-50-bold {
-        font-size: 1.5rem;
+        font-size: 2rem;
         font-weight: 700;
     }
 
@@ -323,6 +323,10 @@
     .flower-lover {
         flex-direction: column;
         margin-top: 3rem;
+    }
+
+    .flower-lover-container {
+        margin-left: -0rem;
     }
 
     .flower-img {
@@ -395,6 +399,10 @@
         font-weight: 700;
     }
 
+    .font-50-bold {
+        font-size: 2rem;
+        font-weight: 700;
+    }
 
     .plant-section-img {
         width: 100%;
@@ -419,6 +427,10 @@
 
     .flower-img {
         width: 100%;
+    }
+
+    .flower-lover-container {
+        margin-left: -0rem;
     }
 
     .trusted-badge {
