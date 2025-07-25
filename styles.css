@@ -1,441 +1,533 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap");
 
 .inter-fonts {
-    font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
 
 .noto-serif-fonts {
-    font-family: "Noto Serif", serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-    font-variation-settings:
-        "wdth" 100;
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
 }
 
 /* Common Classes for font */
 
 .font-16-bold {
-    font-size: 1rem;
-    font-weight: 700;
+  font-size: 1rem;
+  font-weight: 700;
 }
 
 .font-16-regular {
-    font-size: 1rem;
-    font-weight: normal;
+  font-size: 1rem;
+  font-weight: normal;
 }
 
 .font-16-semibold {
-    font-size: 1rem;
-    font-weight: 500;
+  font-size: 1rem;
+  font-weight: 500;
 }
 
 .font-20-bold {
-    font-size: 1.25rem;
-    font-weight: 700;
+  font-size: 1.25rem;
+  font-weight: 700;
 }
 
 .font-22-regular {
-    font-size: 1.375rem;
-    font-weight: normal;
+  font-size: 1.375rem;
+  font-weight: normal;
 }
 
 .font-22-bold {
-    font-size: 1.375rem;
-    font-weight: 700;
+  font-size: 1.375rem;
+  font-weight: 700;
 }
 
 .font-22-medium {
-    font-size: 1.375rem;
-    font-weight: 500;
+  font-size: 1.375rem;
+  font-weight: 500;
 }
 
 .font-28-semibold {
-    font-size: 1.75rem;
-    font-weight: 600;
+  font-size: 1.75rem;
+  font-weight: 600;
 }
 
 .font-40-bold {
-    font-size: 2.5rem;
-    font-weight: 700;
+  font-size: 2.5rem;
+  font-weight: 700;
 }
 
 .font-50-bold {
-    font-size: 3.125rem;
-    font-weight: 700;
+  font-size: 3.125rem;
+  font-weight: 700;
 }
 
 .font-65-bold {
-    font-size: 4rem;
-    font-weight: 700;
+  font-size: 4rem;
+  font-weight: 700;
 }
 
 .cart {
-    font-size: 1.5rem;
+  font-size: 1.5rem;
 }
 
 /* common Classes For Color */
 
 .dark-1 {
-    color: rgba(0, 0, 0, 1);
+  color: rgba(0, 0, 0, 1);
 }
 
 .dark-2 {
-    color: rgba(17, 17, 17, 1);
+  color: rgba(17, 17, 17, 1);
 }
 
 .dark-3 {
-    color: rgba(37, 36, 50, 1);
+  color: rgba(37, 36, 50, 1);
 }
 
 .dark-5 {
-    color: rgba(137, 135, 161, 1);
+  color: rgba(137, 135, 161, 1);
 }
 
 .dark-ash {
-    color: rgba(0, 0, 0, 0.5);
+  color: rgba(0, 0, 0, 0.5);
 }
 
 .gray-color {
-    color: rgb(251, 252, 255);
+  color: rgb(251, 252, 255);
 }
 
 .orange-color {
-    color: rgba(233, 90, 8, 1);
+  color: rgba(233, 90, 8, 1);
 }
 
 .white-color {
-    color: rgba(255, 255, 255, 1);
+  color: rgba(255, 255, 255, 1);
 }
 
 .background-color {
-    background-color: rgb(245, 248, 255);
+  background-color: rgb(245, 248, 255);
 }
 
 .btn-primary {
-    background-color: rgba(233, 90, 8, 1);
-    color: #FFFFFF;
-    padding: 1.25rem 5rem;
-    width: 100%;
-    border-style: none;
+  background-color: rgba(233, 90, 8, 1);
+  color: #ffffff;
+  padding: 1.25rem 5rem;
+  width: 100%;
+  border-style: none;
 }
 
 /* Flex and grid*/
 
 .display-flex {
-    display: flex;
+  display: flex;
 }
 
 .justify {
-    justify-content: center;
+  justify-content: center;
 }
 
 .text-align {
-    text-align: center;
+  text-align: center;
 }
 
-
 .align-item {
-    align-items: flex-start;
+  align-items: flex-start;
 }
 
 .display-grid {
-    display: grid;
+  display: grid;
 }
 
 /* Max-width */
 
 .max-width {
-    max-width: 1140px;
-    margin: 0 auto;
+  max-width: 1140px;
+  margin: 0 auto;
 }
 
 /* For Header Class */
 .header-section {
-    justify-content: space-between;
-    align-items: center;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .header-ul {
-    padding: 0;
-    gap: 3rem;
-    align-items: center;
+  padding: 0;
+  gap: 3rem;
+  align-items: center;
 }
 
 .header-cart {
-    padding: 0;
-    gap: 3rem;
-    align-items: center;
+  padding: 0;
+  gap: 3rem;
+  align-items: center;
 }
 
 .header-ul li {
-    list-style: none;
+  list-style: none;
 }
 
 .header-ul a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .header-section a {
-    text-decoration: none;
+  text-decoration: none;
 }
-
 
 /* For Banner Section */
 
 .hero-section {
-    margin-top: 7.5rem;
-    align-items: flex-end;
+  margin-top: 7.5rem;
+  align-items: flex-end;
 }
 
 .hero-section-img {
-    width: 100%;
+  width: 100%;
 }
 
 /* Our plant Section */
 .plant-section {
-    margin-top: 7.5rem;
+  margin-top: 7.5rem;
 }
 
 /* Plant price section */
 .plant-price-sec {
-    grid-template-columns: repeat(4, 1fr);
-    gap: 1rem;
-    margin-top: 3rem;
-    row-gap: 2rem;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  margin-top: 3rem;
+  row-gap: 2rem;
 }
 
 .plant-price-gap {
-    line-height: 0.5rem;
+  line-height: 0.5rem;
 }
 
 .plant-section-img {
-    width: 100%;
+  width: 100%;
 }
 
 /* flower Lover section */
 
 .flower-lover-container {
-    margin-left: 3rem;
+  margin-left: 3rem;
 }
 
 .flower-lover-li {
-    padding: 0.76rem;
+  padding: 0.76rem;
 }
-
 
 .trusted-badge {
-    position: relative;
-    left: 25rem;
-    width: 25%;
-    margin-bottom: -10rem;
+  position: relative;
+  left: 30rem;
+  width: 25%;
+  margin-bottom: -10rem;
 }
 
+.deals-container {
+  margin-top: 8rem;
+}
+
+.image-container {
+  position: relative;
+  width: 100%;
+}
+
+.image-container img {
+  filter: brightness(60%);
+  border-radius: 2rem;
+}
+
+.text-overlay {
+  position: absolute;
+  left: 20%;
+  top: 30%;
+  text-align: center;
+  line-height: 0.5rem;
+}
+
+.image-grid {
+  gap: 1.5rem;
+  margin-top: 7.5rem;
+}
+
+.content {
+  margin-bottom: 1.1rem;
+}
 
 /* Mobile responsive */
 
+@media screen and (max-width: 400px) {
+  .header-section {
+    margin-right: 1rem;
+    margin-left: 1rem;
+  }
 
-@media screen and (max-width:400px) {
+  .header-ul {
+    display: none;
+  }
 
-    .header-section {
-        margin-right: 1rem;
-        margin-left: 1rem;
-    }
+  .font-65-bold {
+    font-size: 2rem;
+    font-weight: 700;
+  }
 
-    .header-ul {
-        display: none;
-    }
+  .hero-section {
+    flex-direction: column-reverse;
+  }
 
-    .font-65-bold {
-        font-size: 2rem;
-        font-weight: 700;
-    }
+  .hero-section-img {
+    width: 100%;
+    margin: 0px;
+  }
 
-    .hero-section {
-        flex-direction: column-reverse;
-    }
+  .hero-section-div {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
 
-    .hero-section-img {
-        width: 100%;
-        margin: 0px;
-    }
+  .plant-section {
+    margin-top: 4rem;
+    margin-left: 1.75rem;
+    margin-right: 1.75rem;
+  }
 
-    .hero-section-div {
-        margin-left: 1rem;
-        margin-right: 1rem;
-    }
+  .plant-price-sec {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
 
-    .plant-section {
-        margin-top: 4rem;
-        margin-left: 1.75rem;
-        margin-right: 1.75rem;
-    }
+  .font-16-regular {
+    font-size: 0.25rem;
+    font-weight: normal;
+  }
 
-    .plant-price-sec {
-        grid-template-columns: repeat(2, 1fr);
-        row-gap: 1rem;
-        margin-left: 1rem;
-        margin-right: 1rem;
-    }
+  .font-16-regular-c {
+    font-size: 1rem;
+    font-weight: normal;
+  }
 
-    .font-16-regular {
-        font-size: 0.25rem;
-        font-weight: normal;
-    }
+  .plant-section-img {
+    width: 100%;
+  }
 
-    .font-16-regular-c {
-        font-size: 1rem;
-        font-weight: normal;
-    }
+  .font-50-bold {
+    font-size: 2rem;
+    font-weight: 700;
+  }
 
-    .plant-section-img {
-        width: 100%;
-    }
+  .font-22-medium {
+    font-size: 1rem;
+    font-weight: 500;
+  }
 
-    .font-50-bold {
-        font-size: 2rem;
-        font-weight: 700;
-    }
+  .font-22-bold {
+    font-size: 1rem;
+    font-weight: 700;
+  }
 
-    .font-22-medium {
-        font-size: 1rem;
-        font-weight: 500;
-    }
+  .btn-primary {
+    background-color: rgba(233, 90, 8, 1);
+    color: #ffffff;
+    padding: 1rem 1rem;
+    width: 100%;
+    border-style: none;
+  }
 
-    .font-22-bold {
-        font-size: 1rem;
-        font-weight: 700;
-    }
+  .plant-price-div {
+    margin-top: 2rem;
+  }
 
-    .btn-primary {
-        background-color: rgba(233, 90, 8, 1);
-        color: #FFFFFF;
-        padding: 1rem 1rem;
-        width: 100%;
-        border-style: none;
-    }
+  .flower-lover {
+    flex-direction: column;
+    margin-top: 3rem;
+  }
 
-    .plant-price-div {
-        margin-top: 2rem;
-    }
+  .flower-lover-container {
+    margin-left: -0rem;
+  }
 
-    .flower-lover {
-        flex-direction: column;
-        margin-top: 3rem;
-    }
+  .flower-img {
+    width: 100%;
+  }
 
-    .flower-lover-container {
-        margin-left: -0rem;
-    }
+  .trusted-badge {
+    display: none;
+  }
 
-    .flower-img {
-        width: 100%;
-    }
+  .deals-container-htag {
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
 
-    .trusted-badge {
-        display: none;
-    }
+  .deals-container-article {
+    font-size: 0.875rem;
+    font-weight: normal;
+  }
+
+  .deals-container {
+    margin-top: 4rem;
+  }
+
+  .text-overlay {
+    left: 25%;
+    top: 30%;
+  }
+
+  .display-flex {
+    flex-direction: column;
+  }
+
+  .content-flex {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .deal-bloom {
+    width: 100%;
+  }
+
+  .font-20-boldc {
+    font-size: 1.25rem;
+    font-weight: 700;
+  }
 }
 
+@media screen and (min-width: 400px) and (max-width: 576px) {
+  .header-section {
+    margin-right: 1rem;
+    margin-left: 1rem;
+  }
 
+  .header-ul {
+    display: none;
+  }
 
-@media screen and (min-width:400px) and (max-width:576px) {
+  .hero-section {
+    flex-direction: column-reverse;
+  }
 
-    .header-section {
-        margin-right: 1rem;
-        margin-left: 1rem;
-    }
+  .hero-section-img {
+    width: 100%;
+  }
 
-    .header-ul {
-        display: none;
-    }
+  .font-65-bold {
+    font-size: 2rem;
+    font-weight: 700;
+  }
 
-    .hero-section {
-        flex-direction: column-reverse;
-    }
+  .font-16-regular-c {
+    font-size: 1rem !important;
+    font-weight: normal;
+  }
 
-    .hero-section-img {
-        width: 100%;
-    }
+  .hero-section-div {
+    max-width: 95%;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 2rem;
+  }
 
-    .font-65-bold {
-        font-size: 2rem;
-        font-weight: 700;
-    }
+  .plant-section {
+    margin-top: 4rem;
+    margin-left: 1.75rem;
+    margin-right: 1.75rem;
+  }
 
-    .font-16-regular-c {
-        font-size: 1rem !important;
-        font-weight: normal;
-    }
+  .plant-price-sec {
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 2rem;
+  }
 
-    .hero-section-div {
-        max-width: 95%;
-        margin-left: 1rem;
-        margin-right: 1rem;
-        margin-top: 2rem;
-    }
+  .font-16-regular {
+    font-size: 0.25rem;
+    font-weight: normal;
+  }
 
-    .plant-section {
-        margin-top: 4rem;
-        margin-left: 1.75rem;
-        margin-right: 1.75rem;
-    }
+  .font-22-bold-c {
+    font-size: 2rem;
+    font-weight: 700;
+  }
 
-    .plant-price-sec {
-        grid-template-columns: repeat(2, 1fr);
-        margin-left: 1rem;
-        margin-right: 1rem;
-        margin-top: 2rem;
-    }
+  .font-50-bold {
+    font-size: 2rem;
+    font-weight: 700;
+  }
 
-    .font-16-regular {
-        font-size: 0.25rem;
-        font-weight: normal;
-    }
+  .plant-section-img {
+    width: 100%;
+  }
 
-    .font-22-bold-c {
-        font-size: 2rem;
-        font-weight: 700;
-    }
+  .btn-primary {
+    background-color: rgba(233, 90, 8, 1);
+    color: #ffffff;
+    padding: 1rem 2rem;
+    width: 100%;
+    border-style: none;
+  }
 
-    .font-50-bold {
-        font-size: 2rem;
-        font-weight: 700;
-    }
+  .plant-price-div {
+    margin-top: 2rem;
+  }
 
-    .plant-section-img {
-        width: 100%;
-    }
+  .flower-lover {
+    flex-direction: column;
+    margin-top: 3rem;
+  }
 
-    .btn-primary {
-        background-color: rgba(233, 90, 8, 1);
-        color: #FFFFFF;
-        padding: 1rem 2rem;
-        width: 100%;
-        border-style: none;
-    }
+  .flower-img {
+    width: 100%;
+  }
 
-    .plant-price-div {
-        margin-top: 2rem;
-    }
+  .flower-lover-container {
+    margin-left: -0rem;
+  }
 
-    .flower-lover {
-        flex-direction: column;
-        margin-top: 3rem;
-    }
+  .trusted-badge {
+    display: none;
+  }
 
-    .flower-img {
-        width: 100%;
-    }
+  .deals-container-htag {
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
 
-    .flower-lover-container {
-        margin-left: -0rem;
-    }
+  .deals-container-article {
+    font-size: 0.875rem;
+    font-weight: normal;
+  }
 
-    .trusted-badge {
-        display: none;
-    }
+  .deals-container {
+    margin-top: 4rem;
+  }
+
+  .display-flex {
+    flex-direction: column;
+  }
+
+  .content-flex {
+    display: flex;
+    flex-direction: column;
+  }
+  .text-overlay {
+    left: 25%;
+    top: 40%;
+  }
+
+  .deal-bloom {
+    width: 100%;
+  }
+
+  .font-20-boldc {
+    font-size: 1.25rem;
+    font-weight: 700;
+  }
 }
-
-@media screen and (min-width:576.1px) {}
