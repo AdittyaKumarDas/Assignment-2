@@ -453,6 +453,11 @@ input[placeholder] {
     top: 30%;
   }
 
+  .text-overlay2 {
+    left: 15%;
+    top: 30%;
+  }
+
   .display-flex {
     flex-direction: column;
   }
@@ -644,6 +649,11 @@ input[placeholder] {
   .text-overlay {
     left: 25%;
     top: 40%;
+  }
+
+  .text-overlay2 {
+    left: 20%;
+    top: 30%;
   }
 
   .deal-bloom {
