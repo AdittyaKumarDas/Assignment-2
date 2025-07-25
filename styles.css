@@ -126,6 +126,10 @@
   display: flex;
 }
 
+.display-flex1 {
+  display: flex;
+}
+
 .justify {
   justify-content: center;
 }
@@ -308,7 +312,7 @@ input[placeholder] {
   box-sizing: border-box;
   background-color: rgba(233, 90, 8, 1);
   color: #ffffff;
-  padding: 1.1rem 2rem;
+  padding: 1.15rem 2.5rem;
   border-style: none;
   margin-left: -0.5rem;
 }
